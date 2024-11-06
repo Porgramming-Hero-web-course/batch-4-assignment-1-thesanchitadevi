@@ -13,6 +13,6 @@ function sumArray(arrOfNumbers: number[]): number {
   return arrOfNumbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0); // 0 is the initial value of the accumulator
 }   
 
-console.log(sumArray([1, 2, 3, 4, 5])); // 15
+// console.log(sumArray([1, 2, 3, 4, 5])); // 15
 
 

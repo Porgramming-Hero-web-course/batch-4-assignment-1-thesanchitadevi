@@ -17,5 +17,5 @@ function getProperty<X, Y extends keyof X>(obj: X, propertyName: Y): X[Y] {
 }
 
 const person = { name: "Alice", age: 30 };
-console.log(getProperty(person, "name")); // Alice
+// console.log(getProperty(person, "name")); // Alice
 
