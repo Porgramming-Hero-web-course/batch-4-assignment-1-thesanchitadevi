@@ -12,4 +12,6 @@ function removeDuplicates(arrOfNumbers: number[]): number[] {
 }
 
 // console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
+// console.log(removeDuplicates([1, 22, 2, 3, 4, 4, 22, 5, 1])); // [1, 22, 2, 3, 4, 5]
+
 

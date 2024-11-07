@@ -9,7 +9,8 @@ function countWordOccurrences(sentence: string, word: string): number {
     const wordInLowerCase = word.toLowerCase();
 
     // Split the sentence into words using a regular expression to remove punctuation
-    const words = sentenceInLowerCase.split(/\W+/);
+    // const words = sentenceInLowerCase.split(/\W+/);
+    const words = sentenceInLowerCase.split(" ");
 
     // Filter the words that match the word
     const matchingWords = words.filter((w) => w === wordInLowerCase);
@@ -18,7 +19,12 @@ function countWordOccurrences(sentence: string, word: string): number {
     return matchingWords.length;
 }
 
-// console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript")); // Output: 2
+// console.log(countWordOccurrences("TypeScript is great", "typescript")); // Output: 1
+// console.log(countWordOccurrences("TypeScript is great. TypeScript is awesome.", "typescript")); // Output: 2
+
+// console.log(countWordOccurrences("TypeScript is great", "great")); // Output: 1
+
+
 
 
 

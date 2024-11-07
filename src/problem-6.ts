@@ -18,8 +18,7 @@ function updateProfile(profile: IProfile, updatesInProfile: PartialProfile): IPr
     return { ...profile, ...updatesInProfile }; 
 }
 
-const myProfile : IProfile = { name: "Alice", age: 25, email: "alice@example.com"}
-
+// const myProfile : IProfile = { name: "Alice", age: 25, email: "alice@example.com"}
 // console.log(updateProfile(myProfile, { age: 26 })); // { name: 'Alice', age: 26, email: 'alice@example.com' }
 
 

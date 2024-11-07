@@ -31,14 +31,10 @@ function calculateShapeArea(shape: Shape): number {
     }
 }
 
-const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+// const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
 // console.log(circleArea); // Output: 78.54
 
-const rectangleArea = calculateShapeArea({
-    shape: "rectangle",
-    width: 4,
-    height: 6,
-});
+// const rectangleArea = calculateShapeArea({shape: "rectangle", width: 4, height: 6,});
 // console.log(rectangleArea); // Output: 24
 
 
